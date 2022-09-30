@@ -1,0 +1,127 @@
+.text-heading{
+  color: #EDF5E1;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+  background-image: url(/images/bg1.jpg);
+  padding: 15px;
+  text-align: center;
+}
+
+.nav_menu{
+  overflow: hidden;
+  background-color: #379683;
+  clear: left;
+  text-align: center;
+  padding: 15px;
+}
+
+.nav_menu a{
+  color: #EDF5E1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_menu a:hover {
+  background-color: #05386B;
+}
+
+.body-bg{
+  background-color: #5CDB95;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.columnA{
+  padding: 15px;
+  text-align: center;
+}
+
+.columnA-1{
+  color: #05386B;
+  text-decoration-style: solid;
+  text-shadow: 1px 1px #379683;
+}
+
+.about{
+  color: #05386B;
+  text-decoration-style: solid;
+  text-shadow: 1px 1px #379683;
+}
+
+p{
+  font-size: 21px;
+}
+
+.p4{
+  border-radius: 10px;
+  border: 4px solid #05386B;
+}
+
+.footer{
+  background-color:#379683;
+  padding: 15px;
+  text-align: center;
+  overflow: hidden;
+  clear: left;
+  bottom: 0;
+}
+
+.footer a{
+  color: #EDF5E1;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+form{ 
+  max-width:420px; 
+  margin:50px auto; 
+}
+
+.feedback-input {
+  color: #05386B;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #05386B;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus{ 
+  border:2px solid #05386B; 
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"]{
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  background:#05386B;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color: #EDF5E1;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover{ 
+  background:#379683; 
+}
